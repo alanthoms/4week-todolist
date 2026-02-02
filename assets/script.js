@@ -57,4 +57,5 @@ function onClickAddButton(event) {
   });
   recentTask.append(recentTaskSpan, editButton, deleteButton);
   taskList.appendChild(recentTask);
+  inputTask.value = "";
 }
